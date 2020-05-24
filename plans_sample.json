@@ -1,0 +1,18 @@
+{
+    "weight": 80.0,
+    "weeks_to_output": 10,
+    "weekly_plans": [
+        {
+            "title": "jogging",
+            "mets": 7,
+            "hours": 1,
+            "times_per_week": 1
+        },
+        {
+            "title": "dancing",
+            "mets": 2,
+            "hours": 1,
+            "times_per_week": 2
+        }
+    ]
+}
