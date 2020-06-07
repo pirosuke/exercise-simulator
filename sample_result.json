@@ -1,0 +1,141 @@
+{
+    "title": "plans_sample.json",
+    "weeks": 10,
+    "start_weight_kg": 80,
+    "weekly_results": [
+        {
+            "name": "1jog_2dance",
+            "end_weight_kg": 78.08429527466448,
+            "removed_fat_kg": 1.915704725335516,
+            "results": [
+                {
+                    "week": 1,
+                    "start_weight_kg": 80,
+                    "exercise_kcal": 1394.4,
+                    "removed_fat_kg": 0.19366666666666665
+                },
+                {
+                    "week": 2,
+                    "start_weight_kg": 79.80633333333333,
+                    "exercise_kcal": 1391.02439,
+                    "removed_fat_kg": 0.1931978319444444
+                },
+                {
+                    "week": 3,
+                    "start_weight_kg": 79.61313550138888,
+                    "exercise_kcal": 1387.6569517892083,
+                    "removed_fat_kg": 0.1927301321929456
+                },
+                {
+                    "week": 4,
+                    "start_weight_kg": 79.42040536919593,
+                    "exercise_kcal": 1384.2976655850853,
+                    "removed_fat_kg": 0.19226356466459515
+                },
+                {
+                    "week": 5,
+                    "start_weight_kg": 79.22814180453133,
+                    "exercise_kcal": 1380.9465116529814,
+                    "removed_fat_kg": 0.19179812661846962
+                },
+                {
+                    "week": 6,
+                    "start_weight_kg": 79.03634367791287,
+                    "exercise_kcal": 1377.6034703060213,
+                    "removed_fat_kg": 0.19133381532028076
+                },
+                {
+                    "week": 7,
+                    "start_weight_kg": 78.84500986259259,
+                    "exercise_kcal": 1374.268521904989,
+                    "removed_fat_kg": 0.19087062804235955
+                },
+                {
+                    "week": 8,
+                    "start_weight_kg": 78.65413923455023,
+                    "exercise_kcal": 1370.9416468582106,
+                    "removed_fat_kg": 0.19040856206364037
+                },
+                {
+                    "week": 9,
+                    "start_weight_kg": 78.46373067248659,
+                    "exercise_kcal": 1367.6228256214413,
+                    "removed_fat_kg": 0.18994761466964466
+                },
+                {
+                    "week": 10,
+                    "start_weight_kg": 78.27378305781694,
+                    "exercise_kcal": 1364.3120386977494,
+                    "removed_fat_kg": 0.1894877831524652
+                }
+            ]
+        },
+        {
+            "name": "1jog_3dance",
+            "end_weight_kg": 77.53810568508884,
+            "removed_fat_kg": 2.461894314911163,
+            "results": [
+                {
+                    "week": 1,
+                    "start_weight_kg": 80,
+                    "exercise_kcal": 1797.6,
+                    "removed_fat_kg": 0.24966666666666665
+                },
+                {
+                    "week": 2,
+                    "start_weight_kg": 79.75033333333333,
+                    "exercise_kcal": 1791.98999,
+                    "removed_fat_kg": 0.2488874986111111
+                },
+                {
+                    "week": 3,
+                    "start_weight_kg": 79.50144583472222,
+                    "exercise_kcal": 1786.3974879062084,
+                    "removed_fat_kg": 0.24811076220919562
+                },
+                {
+                    "week": 4,
+                    "start_weight_kg": 79.25333507251302,
+                    "exercise_kcal": 1780.8224390793675,
+                    "removed_fat_kg": 0.24733644987213438
+                },
+                {
+                    "week": 5,
+                    "start_weight_kg": 79.00599862264089,
+                    "exercise_kcal": 1775.2647890507408,
+                    "removed_fat_kg": 0.2465645540348251
+                },
+                {
+                    "week": 6,
+                    "start_weight_kg": 78.75943406860607,
+                    "exercise_kcal": 1769.7244835215783,
+                    "removed_fat_kg": 0.24579506715577482
+                },
+                {
+                    "week": 7,
+                    "start_weight_kg": 78.5136390014503,
+                    "exercise_kcal": 1764.2014683625882,
+                    "removed_fat_kg": 0.24502798171702617
+                },
+                {
+                    "week": 8,
+                    "start_weight_kg": 78.26861101973327,
+                    "exercise_kcal": 1758.6956896134066,
+                    "removed_fat_kg": 0.24426329022408422
+                },
+                {
+                    "week": 9,
+                    "start_weight_kg": 78.02434772950919,
+                    "exercise_kcal": 1753.2070934820715,
+                    "removed_fat_kg": 0.2435009852058433
+                },
+                {
+                    "week": 10,
+                    "start_weight_kg": 77.78084674430335,
+                    "exercise_kcal": 1747.7356263444963,
+                    "removed_fat_kg": 0.2427410592145134
+                }
+            ]
+        }
+    ]
+}

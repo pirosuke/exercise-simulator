@@ -3,16 +3,38 @@
     "weeks_to_output": 10,
     "weekly_plans": [
         {
-            "title": "jogging",
-            "mets": 7,
-            "hours": 1,
-            "times_per_week": 1
+            "name": "1jog_2dance",
+            "plans": [
+                {
+                    "title": "jogging",
+                    "mets": 7,
+                    "hours": 1,
+                    "times_per_week": 1
+                },
+                {
+                    "title": "dancing",
+                    "mets": 4.8,
+                    "hours": 1,
+                    "times_per_week": 2
+                }
+            ]
         },
         {
-            "title": "dancing",
-            "mets": 2,
-            "hours": 1,
-            "times_per_week": 2
+            "name": "1jog_3dance",
+            "plans": [
+                {
+                    "title": "jogging",
+                    "mets": 7,
+                    "hours": 1,
+                    "times_per_week": 1
+                },
+                {
+                    "title": "dancing",
+                    "mets": 4.8,
+                    "hours": 1,
+                    "times_per_week": 3
+                }
+            ]
         }
     ]
 }
