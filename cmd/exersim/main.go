@@ -110,6 +110,12 @@ func calcExerciseResult(startWeight float64, weeksToOutput int64, weeklyPlans We
 }
 
 func main() {
+
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Usage: exersim [flags]\n")
+		flag.PrintDefaults()
+	}
+
 	planFilePath := flag.String("p", "", "Plans file path")
 	flag.Parse()
 
