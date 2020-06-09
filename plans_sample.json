@@ -3,6 +3,17 @@
     "weeks_to_output": 10,
     "weekly_plans": [
         {
+            "name": "1jog",
+            "plans": [
+                {
+                    "title": "jogging",
+                    "mets": 7,
+                    "hours": 1,
+                    "times_per_week": 1
+                }
+            ]
+        },
+        {
             "name": "1jog_2dance",
             "plans": [
                 {
