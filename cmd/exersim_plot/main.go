@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"image/color"
 	"io/ioutil"
 	"os"
 
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/plotutil"
 	"gonum.org/v1/plot/vg"
 
 	"github.com/pirosuke/exercise-simulator/internal/models"
@@ -69,15 +69,27 @@ func main() {
 	p.Add(plotter.NewGrid())
 	p.Legend.Left = true
 
-	for _, weeklyResult := range simulatedResultData.WeeklyResults {
-		points := createPoints(weeklyResult.Results)
+	colors := []color.RGBA{
+		{R: 255, A: 255},
+		{G: 255, A: 255},
+		{B: 255, A: 255},
+	}
 
-		err = plotutil.AddLinePoints(p,
-			weeklyResult.Name, points)
+	for i, weeklyResult := range simulatedResultData.WeeklyResults {
+		pointsData := createPoints(weeklyResult.Results)
+
+		line, points, err := plotter.NewLinePoints(pointsData)
 
 		if err != nil {
 			panic(err)
 		}
+
+		line.Color = colors[i%len(colors)]
+		points.Color = colors[i%len(colors)]
+
+		p.Add(line, points)
+		p.Legend.Add(weeklyResult.Name, line, points)
+
 	}
 
 	if err := p.Save(8*vg.Inch, 4*vg.Inch, "exercise_simulation.png"); err != nil {
